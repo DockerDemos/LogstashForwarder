@@ -8,7 +8,7 @@ __Building and Running__
 1. `git clone https://github.com/DockerDemos/LogstashForwarder`
 2. `cd LogstashForwarder`
 3. `docker build -t lsf .  <-- note the period on the end`
-4. `docker run --volumes-from <some_container> -d <lsf`
+4. `docker run --volumes-from <some_container> -d lsf`
 
 Switch \<some_container\> with the name of a container that holds log files you want to import the Logstash Forwarder to watch.
 
