@@ -12,6 +12,6 @@ WORKDIR /lsf
 RUN go build
 WORKDIR /
 RUN ln -s /lsf/logstash-forwarder /usr/local/bin/logstash-forwarder
-ADD logstash.conf /logstash.conf
+ADD logstash.d /logstash.d
 
-ENTRYPOINT [ "logstash-forwarder", "--config", "/logstash.conf" ]
+ENTRYPOINT [ "logstash-forwarder", "--config", "/logstash.d/" ]
