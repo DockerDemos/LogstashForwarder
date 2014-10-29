@@ -3,9 +3,9 @@
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iEYEABECAAYFAlRRSzUACgkQte6EFif3vzeZpwCbBr+lCm621sBhXRCHksOwe4W8
-oZUAnjCKs0rgO6I5VdkrCIMDKrI24hgv
-=Gg+Y
+iEYEABECAAYFAlRRTVgACgkQte6EFif3vzdDdQCfZpolIrABrE/Tl0uiM8vUUM/M
+/sQAnitIqAy4eWQ+Xg0f22Lrj1tCOsFt
+=A6Fz
 -----END PGP SIGNATURE-----
 
 ```
@@ -17,11 +17,12 @@ oZUAnjCKs0rgO6I5VdkrCIMDKrI24hgv
 #### Expect
 
 ```
-size   exec  file          contents                                                        
-             ./                                                                            
-464            Dockerfile  7dbd98a77c8a3cdc1d15305ac7e960da3140f44b81d182bf0ea97f4e241a0924
-35120          LICENSE     fe3eea6c599e23a00c08c5f5cb2320c30adc8f8687db5fcec9b79a662c53ff6b
-1374           README.md   49b4f7f9d95de6314c666951489254fff55dfd88d90016e567a9d7bfbe587d2d
+size   exec  file             contents                                                        
+             ./                                                                               
+464            Dockerfile     7dbd98a77c8a3cdc1d15305ac7e960da3140f44b81d182bf0ea97f4e241a0924
+35120          LICENSE        fe3eea6c599e23a00c08c5f5cb2320c30adc8f8687db5fcec9b79a662c53ff6b
+1374           README.md      49b4f7f9d95de6314c666951489254fff55dfd88d90016e567a9d7bfbe587d2d
+12             logstash.conf  a062a4d1e195b2f8798d1008c2d48bb118a311156f19df129810a1e4e5154454
 ```
 
 #### Ignore
